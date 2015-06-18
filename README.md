@@ -1,5 +1,5 @@
 # DropzoneJs + Asp.net Example
- This article explains how in Asp.net C# using Dropzone js plugin we upload bulk images. i.e implement dropzone js plugin in Asp.net C# Webform for uploading images. 
+ Here i have explained how in Asp.net C# using Dropzone js plugin we upload bulk images. i.e implement dropzone js plugin in Asp.net C# Webform for uploading images. 
  
   DropzoneJS is an open source library that provides drag n drop file uploads with image previews.
   
