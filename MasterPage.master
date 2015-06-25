@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .DDMainHeader {
+            border-bottom: 1px dotted #bbbbbb;
+            color: #888;
+            font: small-caps bold 1.6em Trebuchet MS,Arial,sans-serif;
+            padding-bottom: 12px;
+            padding-left: 30px;
+        }
+
+        body {
+            font-family: helvetica,sans-serif,'Trebuchet MS';
+            font-size: 16px;
+            color: #444;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 class="DDMainHeader">Codepedia.info </h1>
+    <form id="form1" runat="server">
+        <div>
+
+           
+            <div style="float: left;margin-left: 30px; margin-top: -20px;">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
