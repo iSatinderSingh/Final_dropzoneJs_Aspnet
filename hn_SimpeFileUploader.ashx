@@ -30,7 +30,7 @@ public void ProcessRequest(HttpContext context)
         {
             fileExtension = Path.GetExtension(fileName);
             str_image = "MyPHOTO_" + numFiles.ToString() + fileExtension;
-            string pathToSave = HttpContext.Current.Server.MapPath("~/MediaUploader/") + str_image;
+            string pathToSave = dirFullPath + str_image;
             file.SaveAs(pathToSave);
         }
     }
