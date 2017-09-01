@@ -5,6 +5,6 @@
   
   You can download the solution file from Download Button or Clone in Desktop (Buttons are basically on the right-side of the screen).
   
-  <a href="http://codepedia.info/2015/03/using-dropzone-js-file-image-upload-in-asp-net-webform-c/" Title="Click to check tutorials"><b>Check Detailed Tutorial at Codepedia.info</b> </a>
+  <a href="https://codepedia.info/using-dropzone-js-file-image-upload-in-asp-net-webform-c/" Title="Click to check tutorials"><b>Check Detailed Tutorial at Codepedia.info</b> </a>
   
 
